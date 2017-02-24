@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_location_charity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c9d2d2"
+    tools:context="com.hat_dtu.volunteercommunity.CreateLocationCharity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:hint="Owner"
+        android:typeface="serif"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:hint="Address"
+        android:typeface="serif"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:hint="Phone"
+        android:typeface="serif"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:hint="Email"
+        android:typeface="serif"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:hint="Description"
+        android:typeface="serif"
+        android:gravity="top"
+        android:inputType="text|textMultiLine"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Note: Charity location will be removed within 3 days if there is not enough 10 people who join in this activity"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button4"
+        android:textAllCaps="false"
+        android:text="Create"
+        android:textSize="17dp"
+        android:textColor="#ffffff"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Or"
+        android:textSize="22dp"
+        android:textColor="#696969"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Create with information of account"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textColor="#28aedf"
+        android:background="#b5bfbf"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+
+        />
+</LinearLayout>

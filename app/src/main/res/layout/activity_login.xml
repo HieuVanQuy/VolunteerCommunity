@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#636060"
+    android:orientation="vertical"
+    tools:context="com.hat_dtu.volunteercommunity.Login">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:hint="Email"
+        android:typeface="serif"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:typeface="serif"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:text="Or"
+        android:textColor="#e0f900"
+        android:typeface="serif"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="Log-in with Google"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:typeface="serif"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_button2"
+        android:text="Log-in with Facebook"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:typeface="serif"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rounded_button3"
+        android:textAllCaps="false"
+        android:text="LOG IN"
+        android:textSize="17dp"
+        android:textColor="#ffffff"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        />
+
+</LinearLayout>

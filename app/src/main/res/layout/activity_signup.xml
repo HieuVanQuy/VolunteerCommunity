@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hat_dtu.volunteercommunity.Signup">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_edittext2"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:hint="Fullname"
+        android:typeface="serif"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext2"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:hint="Password"
+        android:typeface="serif"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext2"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:hint="Confirm-Password"
+        android:typeface="serif"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext2"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:hint="Email"
+        android:typeface="serif"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext2"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:hint="Phone"
+        android:typeface="serif"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext2"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:textSize="18dp"
+        android:hint="Address"
+        android:typeface="serif"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="I have read and understand the policy"
+        android:textSize="16dp"
+        android:typeface="serif"
+        android:textColor="#0004f4"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button3"
+        android:textAllCaps="false"
+        android:text="SIGN UP"
+        android:textSize="17dp"
+        android:textColor="#ffffff"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        />
+
+</LinearLayout>
